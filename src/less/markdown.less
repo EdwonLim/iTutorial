@@ -1,0 +1,347 @@
+body {
+    font-family: "Arial";
+}
+
+.page {
+    font-size:18px;
+    line-height:3.0;
+    font-weight: bold;
+    overflow:hidden
+}
+
+.page>*:first-child {
+    margin-top:0 !important
+}
+
+.page>*:last-child {
+    margin-bottom:0 !important
+}
+
+.page a.absent {
+    color:#c00
+}
+
+.page a.anchor {
+    display:block;
+    padding-left:30px;
+    margin-left:-30px;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0
+}
+
+.page h1,.page h2,.page h3,.page h4,.page h5,.page h6 {
+    margin:20px 0 10px;
+    padding:0;
+    font-weight:bold;
+    -webkit-font-smoothing:antialiased;
+    position:relative;
+    text-align: center;
+}
+
+.page h1 .mini-icon-link,.page h2 .mini-icon-link,.page h3 .mini-icon-link,.page h4 .mini-icon-link,.page h5 .mini-icon-link,.page h6 .mini-icon-link {
+    display:none;
+    color:#000
+}
+
+.page h1:hover a.anchor,.page h2:hover a.anchor,.page h3:hover a.anchor,.page h4:hover a.anchor,.page h5:hover a.anchor,.page h6:hover a.anchor {
+    text-decoration:none;
+    line-height:1;
+    padding-left:0;
+    margin-left:-22px;
+    top:15%
+}
+
+.page h1:hover a.anchor .mini-icon-link,.page h2:hover a.anchor .mini-icon-link,.page h3:hover a.anchor .mini-icon-link,.page h4:hover a.anchor .mini-icon-link,.page h5:hover a.anchor .mini-icon-link,.page h6:hover a.anchor .mini-icon-link {
+    display:inline-block
+}
+
+.page h1 tt,.page h1 code,.page h2 tt,.page h2 code,.page h3 tt,.page h3 code,.page h4 tt,.page h4 code,.page h5 tt,.page h5 code,.page h6 tt,.page h6 code {
+    font-size:inherit
+}
+
+.page h1 {
+    font-size:28px;
+    color:#000
+}
+
+.page h2 {
+    font-size:24px;
+//    border-bottom:1px solid #ccc;
+    color:#000
+}
+
+.page h3 {
+    font-size:18px
+}
+
+.page h4 {
+    font-size:16px
+}
+
+.page h5 {
+    font-size:14px
+}
+
+.page h6 {
+    color:#777;
+    font-size:14px
+}
+
+.page p,.page blockquote,.page ul,.page ol,.page dl,.page table,.page pre {
+    margin:15px 0
+}
+
+.page hr {
+    border: 0 none;
+    color:#ccc;
+    height: 4px;
+    padding:0
+}
+
+.page>h2:first-child,.page>h1:first-child,.page>h1:first-child+h2,.page>h3:first-child,.page>h4:first-child,.page>h5:first-child,.page>h6:first-child {
+    margin-top:0;
+    padding-top:0
+}
+
+.page a:first-child h1,.page a:first-child h2,.page a:first-child h3,.page a:first-child h4,.page a:first-child h5,.page a:first-child h6 {
+    margin-top:0;
+    padding-top:0
+}
+
+.page h1+p,.page h2+p,.page h3+p,.page h4+p,.page h5+p,.page h6+p {
+    margin-top:0
+}
+
+.page li p.first {
+    display:inline-block
+}
+
+.page ul,.page ol {
+    padding-left:30px
+}
+
+.page ul.no-list,.page ol.no-list {
+    list-style-type:none;
+    padding:0
+}
+.page ul li>:first-child,.page ul li ul:first-of-type,.page ol li>:first-child,.page ol li ul:first-of-type {
+    margin-top:0;
+}
+
+.page ul ul,.page ul ol,.page ol ol,.page ol ul {
+    margin-bottom:0;
+}
+
+.page dl {
+    padding:0;
+}
+
+.page dl dt {
+    font-size:14px;
+    font-weight:bold;
+    font-style:italic;
+    padding:0;
+    margin:15px 0 5px;
+}
+.page dl dt:first-child {
+    padding:0;
+}
+
+.page dl dt>:first-child {
+    margin-top:0;
+}
+
+.page dl dt>:last-child {
+    margin-bottom:0;
+}
+
+.page dl dd {
+    margin:0 0 15px;
+    padding:0 15px;
+}
+
+.page dl dd>:first-child {
+    margin-top:0;
+}
+
+.page dl dd>:last-child {
+    margin-bottom:0;
+}
+
+.page blockquote {
+    border-left:4px solid #DDD;
+    padding:0 15px;
+    color:#777;
+}
+
+.page blockquote>:first-child {
+    margin-top:0;
+}
+.page blockquote>:last-child {
+    margin-bottom:0;
+}
+.page table th {
+    font-weight:bold;
+}
+
+.page table th,.page table td {
+    border:1px solid #ccc;
+    padding:6px 13px
+}
+
+.page table tr {
+    border-top:1px solid #ccc;
+    background-color:#fff
+}
+
+.page table tr:nth-child(2n) {
+    background-color:#f8f8f8
+}
+.page img {
+    max-width:100%;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box
+}
+
+.page span.frame {
+    display:block;
+    overflow:hidden
+}
+
+.page span.frame>span {
+    border:1px solid #ddd;
+    display:block;
+    float:left;
+    overflow:hidden;
+    margin:13px 0 0;
+    padding:7px;
+    width:auto
+}
+
+.page span.frame span img {
+    display:block;
+    float:left
+}
+
+.page span.frame span span {
+    clear:both;
+    color:#333;
+    display:block;
+    padding:5px 0 0
+}
+
+.page span.align-center {
+    display:block;
+    overflow:hidden;
+    clear:both
+}
+.page span.align-center>span {
+    display:block;
+    overflow:hidden;
+    margin:13px auto 0;
+    text-align:center
+}
+
+.page span.align-center span img {
+    margin:0 auto;
+    text-align:center
+}
+
+.page span.align-right {
+    display:block;
+    overflow:hidden;
+    clear:both
+}
+
+.page span.align-right>span {
+    display:block;
+    overflow:hidden;
+    margin:13px 0 0;
+    text-align:right
+}
+
+.page span.align-right span img {
+    margin:0;
+    text-align:right
+}
+
+.page span.float-left {
+    display:block;
+    margin-right:13px;
+    overflow:hidden;
+    float:left
+}
+
+.page span.float-left span {
+    margin:13px 0 0
+}
+
+.page span.float-right {
+    display:block;
+    margin-left:13px;
+    overflow:hidden;
+    float:right
+}
+
+.page span.float-right>span {
+    display:block;
+    overflow:hidden;
+    margin:13px auto 0;
+    text-align:right
+}
+
+.page code,.page tt {
+    margin:0 2px;
+    padding:0 5px;
+    border:1px solid #eaeaea;
+    background-color:#f8f8f8;
+    border-radius:3px
+}
+
+.page code {
+    white-space:nowrap
+}
+
+.page pre>code {
+    margin:0;
+    padding:0;
+    white-space:pre;
+    border:none;
+    background:transparent
+}
+
+.page .highlight pre,.page pre {
+    background-color:#f8f8f8;
+    border:1px solid #ccc;
+    font-size:13px;
+    line-height:19px;
+    overflow:auto;
+    padding:6px 10px;
+    border-radius:3px
+}
+
+.page pre code,.page pre tt {
+    margin:0;
+    padding:0;
+    background-color:transparent;
+    border:none
+}
+
+.page blockquote {
+    border:0 none;
+    padding:0 0 0 40px
+}
+
+.page blockquote {
+    padding-left:0
+}
+
+//.page li {
+//    list-style-type:none;
+//}
+
+.page a:link, .page a:visited, .page a:hover, .page a:active {
+    color: #3894D3
+}

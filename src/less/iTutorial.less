@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+body.ani {
+  overflow: hidden;
+}
+
+.page {
+  position: relative;
+  margin: 0;
+  padding: 50px;
+}
+
+body.ani .page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.page code.block {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.page a:link {
+  color: #ffffff;
+}
+
+.page a:link, .page a:visited, .page a:hover, .page a:active {
+  color: #ffffff;
+  text-decoration:none;
+}
+
+.page a {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.page p {
+  text-align: center;
+}
+
+.page.cover h1 {
+  margin-top: 100px;
+  font-size: 60px;
+}
+
+body.start {
+  background-image: url(http://edwon.me/xproject/itutorial/bg.png);
+  text-align: center;
+}
+
+body.start h1 {
+  margin: 10px auto 0;
+  font-size: 40pt;
+  font-weight: normal;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15);
+}
+
+body.start h2 {
+  margin-bottom: 10px;
+  font-weight: normal;
+  color: #444;
+}
+
+body.start h2 .author {
+  font-size : 16px;
+  color: #CCCCCC;
+}
+
+body.start .upload {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  min-height: 50px;
+  margin: 20px auto;
+  padding: 5px;
+
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body.start .upload .uploadBtn {
+  width: 280px;
+  height: 280px;
+  line-height: 280px;
+  display: inline-block;
+  overflow: hidden;
+  text-decoration: none;
+  border: 10px dashed rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+body.start .upload .uploadBtn span {
+  width: 280px;
+  height: 280px;
+  font-size: 200px;
+  line-height: 270px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+body.start .upload .uploadBtn input.uploadFile {
+  float: left;
+  margin-top: -350px;
+  width: 280px;
+  height: 280px;
+  opacity: 0;
+}
+
+body.start .upload input.url {
+  width: 450px;
+  margin-left: -90px;
+}
