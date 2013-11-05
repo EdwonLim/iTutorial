@@ -219,7 +219,7 @@
 
     // Get Start.
     var gotoUrl = function() {
-        var url = $('.upload .url').val() || 'http://edwon.me/xproject/itutorial/content.md';
+        var url = $('.upload .url').val() || 'http://edwon.me/xproject/iTutorial/content.md';
         location.href = location.origin + location.pathname + '?md=' + url;
     };
 
