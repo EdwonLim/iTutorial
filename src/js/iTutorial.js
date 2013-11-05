@@ -281,7 +281,7 @@
             $('.upload .uploadBtn').hide();
             $('.upload').css('border', 'none');
         } else {
-            location.href = 'http://edwon.me/xproject/itutorial/getstart.html';
+            location.href = 'http://edwon.me/xproject/iTutorial/getstart.html';
         }
     };
 

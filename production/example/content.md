@@ -8,7 +8,7 @@
 
 ### 一款实用的把Markdown转换为PPT的Web工具，支持远程抓取和上传MD文件，兼容各个平台，并支持在iPad上构建Web App。
 
- * 工具地址 : [http://edown.me/xprotect/itutorial/](http://edown.me/xprotect/itutorial/)
+ * 工具地址 : [http://edown.me/xprotect/iTutorial/](http://edown.me/xprotect/iTutorial/)
  * 项目地址 : [GitCafe](http://gitcafe.com/EdwonLim/iTutorial/) | [GitHub](http://github.com/EdwonLim/iTutorial/)
  * 依赖项目 :
  	* jQuery
@@ -39,8 +39,8 @@
 # How To Make Youslef "PPT"
 
 * 引入 `jQuery` : http://code.jquery.com/jquery-1.10.2.min.js
-* 引入此工具的样式 `iTutorial.min.css` : http://edwon.me/xproject/itutorial/iTutorial.min.css
-* 引入此工具的脚本 `itutorial.min.js` : http://edwon.me/xproject/itutorial/iTutorial.min.js
+* 引入此工具的样式 `iTutorial.min.css` : http://edwon.me/xproject/iTutorial/iTutorial.min.css
+* 引入此工具的脚本 `itutorial.min.js` : http://edwon.me/xproject/iTutorial/iTutorial.min.js
 * 初始化 :
   * 使用JS : `$.iTutorial.init({content : 'content.md'})` 
   * 写在Body属性中 : `<body content='content.md'>...</body>`
@@ -54,7 +54,7 @@
 
 
  * 你可以将你的md文档，上传到服务器，得到文档的连接，通过工具主页的 `Grab` 直接抓取你的md文档，生成*PPT*
- * 当然你的*PPT*路径将为 : `http://edwon.me/xproject/itutorial/?md=你的md文档路径`
+ * 当然你的*PPT*路径将为 : `http://edwon.me/xproject/iTutorial/?md=你的md文档路径`
  * 当你在**iPad**上用**Safari**浏览器，你可以把它`添加到主屏幕`，这样你会发现你的*PPT*将成为你**iPad**上的一个**APP**
  * 你可以在最后一页上单独写一些`CSS`代码来更改你*PPT*的样式
  
